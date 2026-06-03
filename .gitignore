@@ -1,0 +1,49 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+.env.local
+.env.*.local
+
+# Node modules (if using any Node tools)
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+build/
+
+# Private documentation (don't commit)
+PRIVATE_NOTES.md
+*.draft.md
+
+# Backup files
+*.bak
+*.backup
+
+# macOS
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Keep documentation files
+!*.md
+!LICENSE
+!.gitignore
